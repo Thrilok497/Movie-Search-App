@@ -38,7 +38,7 @@ function App() {
     <div className={`app ${darkMode ? "dark-mode" : ""}`}>
       {/* Header Section */}
       <header>
-        <h1>🎬 TMDb Movie Search</h1>
+        <h1>🎬 Movie Search</h1>
         <button className="dark-mode-toggle" onClick={toggleDarkMode}>
           <i className={`fas ${darkMode ? "fa-sun" : "fa-moon"}`}></i>
         </button>
